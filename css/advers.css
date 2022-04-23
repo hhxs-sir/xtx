@@ -1,0 +1,148 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+	background-color: white;
+}
+.center{
+	width: 1170px;
+	margin:0  auto;
+	overflow: hidden;
+}
+nav p{
+	text-align: right;
+	 margin: -47px 0px 14px 10px;
+}
+.nav-top{
+	height: 40px;
+	background-color: black;
+}
+.nav-top li{
+	float: left;
+	list-style: none;
+}
+.nav-top li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	width: 130px;
+	line-height:40px;
+	text-align: center;
+	
+	
+}
+.nav-top li a:hover{
+	background-color: #DA5454;
+}
+.nav-b{
+	width: 290px;
+	height: 95px;
+	border: 1px solid #DEDEDE;
+	margin: -4px 0px 0px 0px ;
+	float: left;
+	
+}
+.nav-b dl{
+	margin: 20px 0px 2px 40px;		
+	
+}
+.nav-b dd{
+	margin: -50px 0px 52px 66px;
+	padding: 1px 1px 1px 1px ; 
+	
+	
+}
+.nav-b dl #ddd{
+	
+	color:#DEDEDE;
+	font-size: 12px;
+	
+}
+#xian{
+	border-bottom: 1px solid #DEDEDE;
+}
+#sj1{
+	width: 720px;
+	height: 224px;
+	background-image: url(../images/pic05.jpg);
+	margin: 10px;
+	background-repeat: no-repeat;
+	background-size: 611px 224px;
+}
+ #sj2{
+width: 228px;
+    height: 224px;
+    background-image: url(../images/pic06.jpg);
+    margin: -234px 10px 10px 664px;
+}
+#sj3{
+	width: 228px;
+	    height: 224px;
+	    background-image: url(../images/pic07.jpg);
+	    margin: -234px 10px 10px 929px;
+}
+ #sj4{
+ 	width: 228px;
+ 	    height: 224px;
+ 	    background-image: url(../images/pic08.jpg);
+ 	    margin: 23px 10px 10px 10px;px;
+ }
+  #sj5{
+      width: 621px;
+      height: 224px;
+      background-image: url(../images/pic09.jpg);
+      margin: -234px 10px 10px 271px;
+	  background-repeat: no-repeat;
+	  background-size: 621px 224px;
+  }
+ #sj6{
+ 	width: 228px;
+ 	    height: 224px;
+ 	    background-image: url(../images/pic10.jpg);
+ 	    margin: -234px 10px 10px 930px;
+ }
+ #xiann{
+	 border-bottom: 1px solid #DEDEDE;
+	 width: 1149px;
+ }
+ #dt{
+	width: 366px; 
+	height: 280px;
+	border: 1px solid #DEDEDE;
+	float: left;
+	margin-right: 22px;
+ }
+ #dt  dd{
+ 	margin: -50px 0px 52px 66px;
+ 	padding: 1px 1px 1px 1px ; 
+ 	
+ 	
+ }
+ #dt dl{
+	 margin: 16px 1px 1px 22px;;
+ }
+ #dt  dl #ddd{
+ 	
+ 	color:#DEDEDE;
+ 	font-size: 12px;
+ 	
+ }
+ #dt p{
+	 margin: 12px 10px 1px 27px;
+ }
+ #xian1{
+ 	border-bottom: 1px solid #DEDEDE;
+	width: 340px;
+	margin: -42px 1px 1px 12px ;
+ }
+ p{
+	 font-weight:bold;
+ }
+ footer{
+ height: 50px;
+ 	background-color: #000000;
+ 	text-align: center;
+ 	color: #FFFFFF;
+ 	padding-top: 40px;
+ }

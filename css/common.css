@@ -1,0 +1,197 @@
+/* 版心的公共类 */
+.container{
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+/* 快捷菜单模块 */
+.xtx-shortcut{
+height: 52px;
+background-color: #333333;
+}
+.xtx-shortcut .container{
+	height: 52px;
+
+}
+.xtx-shortcut ul li{
+	float: left;
+	line-height: 52px;
+	color: #666666;
+}
+.xtx-shortcut ul a{
+	padding: 0 16px;
+	color: #dcdcdc;
+}
+.xtx-shortcut li:last-child a{
+	margin-right: 0;
+}
+.xtx-shortcut li:last-child a::before{
+	content: '';
+	display: inline-block;/* 可以设置高宽 */
+	width: 11px;
+	height: 16px;
+	margin-right: 8px;
+	margin-top: -3px;
+	background: url(../images/sprites.png)-160px -70px;
+	vertical-align: middle;/* 属性设置元素的垂直对齐方式。 */
+	
+}
+
+.xtx-shortcut .wrap{
+position: absolute;
+display: none;
+}
+.xtx-shortcut .wrap li{background: #666666; clear: left; margin-left: 20px; color: #27BA9B;}
+.xtx-shortcut .wrap li a{color:#3B475F;font-size:12px;}
+.dian{
+	
+}
+/* 主导航模块 */
+.xtx-main-nav{
+	height: 130px;
+	/* background-color: pink; */
+	padding-top: 30px;
+	box-sizing: border-box;/* 自动内减 */
+}
+.xtx-main-nav .logo{
+	width: 207px;
+	height: 70px;
+	margin-left: 25px;
+}
+.xtx-main-nav .logo a{
+	display: block;/* 设置块元素 */
+	height: 70px;
+    background: url(../images/logo.png);
+	background-size:100% 100% ;
+	font-size: 0;
+}
+.xtx-main-nav nav{
+	margin-left: 40px;
+}
+.xtx-main-nav nav li{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	margin-right: 48px;
+}
+.xtx-main-nav nav a:hover{
+    color: aliceblue;
+	border-bottom: 1px solid black;
+	padding-bottom: 7px;
+	
+	
+}
+
+.xtx-main-nav .search{
+	position: relative;
+	width: 172px;
+	height: 30px;
+	background-color: orange;
+	margin-top: 24px;
+	margin-left: 34px;
+}
+.xtx-main-nav .search::before{
+	content: '';
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 5px;
+	left: 2px;
+	display: block;
+	background: url(../images/sprites.png)-80px -70px ;
+}
+.xtx-main-nav .search input{
+	width: 172px;
+	height: 30px;
+	border-bottom: 2px solid #e7e7e7;
+	padding-left: 31px;
+} 
+.xtx-main-nav .cart{
+	position: relative;
+	width: 23px;
+	height: 23px;
+	margin-top: 28px;
+	margin-left: 15px;
+	background-color: #000000;
+	background: url(../images/sprites.png)-120px -70px;
+}
+.xtx-main-nav .cart span{
+	position: absolute;
+	right: -12px;
+	top: -5px;
+	border-radius: 8px;
+	width: 20px;
+	height: 15px;
+	display: block;
+	background-color: #ff5500;
+	color: white;
+	font-size:13px ;
+	text-align: center;
+	line-height: 15px;
+}
+/* 宣传服务 */
+.xtx-service{
+	height: 174px;
+	background-color: #333;
+}
+.xtx-service .container{
+	 height: 173px; 
+	 width: 1393px;
+/* 	border-bottom: 1px solid #434343; */
+	/* ps */
+/* 	background-color: #DCDCDC; */
+
+}
+.xtx-service .container a{
+	width: 33.33%;
+	height: 173px;
+	/* ps */
+/* 	background-color: #00ff7f; */
+	display: block;
+	float: left;
+	text-align: center;/* 文字居中 */
+	line-height: 173px;
+	font-size: 28px;
+	color: #fff;
+}
+.xtx-service .container a::before{
+	content: '';
+	width: 58px;
+	height: 58px;
+	display: inline-block;/* 行内块元素 */
+	/* ps */
+/* 	background-color: aliceblue; */
+	vertical-align: middle;/* 属性设置元素的垂直对齐方式 */
+	margin-right: 19px;
+	background: url(../images/sprites.png) 0 0;
+}
+.xtx-service a:nth-child(2)::before{
+	background-position:-130px 0 ;/* 属性设置背景图像的起始位置 */。
+}
+
+.xtx-service a:nth-child(3)::before{
+	background-position:-65px 0 ;/* 属性设置背景图像的起始位置 */。
+}
+/* 版权信息 */
+.xtx-copyright{
+	height: 168px;
+	background-color: #333;
+}
+.xtx-copyright .container{
+	/* ps */
+	height: 168px;
+	/* background-color: #666666; */
+	text-align: center;
+	font-size: 14px;
+	color: #999;
+	padding-top: 41px;
+	box-sizing: border-box;
+}
+.xtx-copyright .container a{
+	/* 文字居中 */
+	color: #999;
+	
+}
+.xtx-copyright .container p:first-child{
+	height: 35px;
+}
